@@ -48,5 +48,34 @@ public class BuildArrayFromPermutation {
  3. so the final output is.
     [4, 5, 0, 1, 2, 3]
 
+ 4. Conclusion
+    Explanation:
+        Initialization:
+            A new integer array ans is created with the same size as the input array nums.
+            This array will store the result.
+
+        Iteration:
+            A for loop iterates from i = 0 to nums.length - 1.
+
+        Assignment:
+            In each iteration, the value at nums[nums[i]] is retrieved and assigned to ans[i].
+            This directly implements the problem's rule: ans[i] = nums[nums[i]].
+
+        Return:
+            After the loop completes, the ans array, which now contains the desired permutation,
+            is returned.
+
+        todo: learn that time and space complexity.
+        Time and Space Complexity:
+            Time Complexity:
+                O(n), where n is the length of the nums array,
+                because the solution involves a single pass through the array.
+
+            Space Complexity:
+                O(n), because a new array ans of size n is created to store the result.
+                (Note: There are alternative solutions that achieve O(1) space complexity
+                by modifying the input array in place, but they are more complex and typically
+                involve encoding and decoding values within the existing array elements.)
+
 
  */

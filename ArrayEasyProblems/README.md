@@ -18,6 +18,7 @@
 13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)
 - Explore more methods of reversing an array & XOR ^ operator.
 14. [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)
+- Explore matrix operations 1D & 2D
 15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
 16. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
 17. [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)

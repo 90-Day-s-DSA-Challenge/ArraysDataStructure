@@ -37,11 +37,17 @@ public class CountItemMatchingRule {
             ruleIndex=2;
         }
 
-        for(int i = 0; i < items.size(); i++){
-            if(items.get(i).get(ruleIndex).equals(ruleValue)){
+//        for(int i = 0; i < items.size(); i++){
+//            if(items.get(i).get(ruleIndex).equals(ruleValue)){
+//                matches++;
+//            }
+//
+//        }
+
+        for(List<String> item: items){
+            if(item.get(ruleIndex).equals(ruleValue)){
                 matches++;
             }
-
         }
 
         return matches;
